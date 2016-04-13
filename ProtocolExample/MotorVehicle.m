@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MotorVehicle.m
 //  ProtocolExample
 //
 //  Created by Pavankumar Arepu on 4/13/16.
 //  Copyright © 2016 PPAM. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MotorVehicle.h"
 
-@interface ViewController ()
+@interface MotorVehicle ()
 
 @end
 
-@implementation ViewController
+@implementation MotorVehicle
 
 - (void)viewDidLoad {
     [super viewDidLoad];

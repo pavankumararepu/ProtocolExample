@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		0B2CA2841CBDEA97002538C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA2831CBDEA97002538C5 /* main.m */; };
 		0B2CA2871CBDEA97002538C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA2861CBDEA97002538C5 /* AppDelegate.m */; };
-		0B2CA28A1CBDEA97002538C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA2891CBDEA97002538C5 /* ViewController.m */; };
+		0B2CA28A1CBDEA97002538C5 /* MotorVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA2891CBDEA97002538C5 /* MotorVehicle.m */; };
 		0B2CA28D1CBDEA97002538C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA28B1CBDEA97002538C5 /* Main.storyboard */; };
 		0B2CA28F1CBDEA97002538C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA28E1CBDEA97002538C5 /* Assets.xcassets */; };
 		0B2CA2921CBDEA97002538C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA2901CBDEA97002538C5 /* LaunchScreen.storyboard */; };
+		0B2CA29C1CBDEC3C002538C5 /* BoatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA29A1CBDEC3C002538C5 /* BoatViewController.m */; };
+		0B2CA2A01CBDEDFD002538C5 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA29F1CBDEDFD002538C5 /* CarViewController.m */; };
+		0B2CA2A31CBDEE31002538C5 /* Bicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA2A21CBDEE31002538C5 /* Bicycle.m */; };
+		0B2CA2A61CBDEE49002538C5 /* Pedestrian.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA2A51CBDEE49002538C5 /* Pedestrian.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,22 @@
 		0B2CA2831CBDEA97002538C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B2CA2851CBDEA97002538C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B2CA2861CBDEA97002538C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0B2CA2881CBDEA97002538C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0B2CA2891CBDEA97002538C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B2CA2881CBDEA97002538C5 /* MotorVehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotorVehicle.h; sourceTree = "<group>"; };
+		0B2CA2891CBDEA97002538C5 /* MotorVehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorVehicle.m; sourceTree = "<group>"; };
 		0B2CA28C1CBDEA97002538C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B2CA28E1CBDEA97002538C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2CA2911CBDEA97002538C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2CA2931CBDEA97002538C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2CA2991CBDEC3C002538C5 /* BoatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoatViewController.h; sourceTree = "<group>"; };
+		0B2CA29A1CBDEC3C002538C5 /* BoatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoatViewController.m; sourceTree = "<group>"; };
+		0B2CA29E1CBDEDFD002538C5 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		0B2CA29F1CBDEDFD002538C5 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
+		0B2CA2A11CBDEE31002538C5 /* Bicycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bicycle.h; sourceTree = "<group>"; };
+		0B2CA2A21CBDEE31002538C5 /* Bicycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bicycle.m; sourceTree = "<group>"; };
+		0B2CA2A41CBDEE49002538C5 /* Pedestrian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pedestrian.h; sourceTree = "<group>"; };
+		0B2CA2A51CBDEE49002538C5 /* Pedestrian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pedestrian.m; sourceTree = "<group>"; };
+		0B2CA2A71CBDF153002538C5 /* StreetRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetRules.h; sourceTree = "<group>"; };
+		0B2CA2A81CBDF418002538C5 /* HumanRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanRules.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +74,18 @@
 			children = (
 				0B2CA2851CBDEA97002538C5 /* AppDelegate.h */,
 				0B2CA2861CBDEA97002538C5 /* AppDelegate.m */,
-				0B2CA2881CBDEA97002538C5 /* ViewController.h */,
-				0B2CA2891CBDEA97002538C5 /* ViewController.m */,
+				0B2CA2881CBDEA97002538C5 /* MotorVehicle.h */,
+				0B2CA2891CBDEA97002538C5 /* MotorVehicle.m */,
+				0B2CA2991CBDEC3C002538C5 /* BoatViewController.h */,
+				0B2CA29A1CBDEC3C002538C5 /* BoatViewController.m */,
+				0B2CA2A71CBDF153002538C5 /* StreetRules.h */,
+				0B2CA2A81CBDF418002538C5 /* HumanRules.h */,
+				0B2CA29E1CBDEDFD002538C5 /* CarViewController.h */,
+				0B2CA29F1CBDEDFD002538C5 /* CarViewController.m */,
+				0B2CA2A11CBDEE31002538C5 /* Bicycle.h */,
+				0B2CA2A21CBDEE31002538C5 /* Bicycle.m */,
+				0B2CA2A41CBDEE49002538C5 /* Pedestrian.h */,
+				0B2CA2A51CBDEE49002538C5 /* Pedestrian.m */,
 				0B2CA28B1CBDEA97002538C5 /* Main.storyboard */,
 				0B2CA28E1CBDEA97002538C5 /* Assets.xcassets */,
 				0B2CA2901CBDEA97002538C5 /* LaunchScreen.storyboard */,
@@ -149,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B2CA28A1CBDEA97002538C5 /* ViewController.m in Sources */,
+				0B2CA29C1CBDEC3C002538C5 /* BoatViewController.m in Sources */,
+				0B2CA2A31CBDEE31002538C5 /* Bicycle.m in Sources */,
+				0B2CA2A01CBDEDFD002538C5 /* CarViewController.m in Sources */,
+				0B2CA28A1CBDEA97002538C5 /* MotorVehicle.m in Sources */,
+				0B2CA2A61CBDEE49002538C5 /* Pedestrian.m in Sources */,
 				0B2CA2871CBDEA97002538C5 /* AppDelegate.m in Sources */,
 				0B2CA2841CBDEA97002538C5 /* main.m in Sources */,
 			);
